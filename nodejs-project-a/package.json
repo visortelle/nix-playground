@@ -1,0 +1,16 @@
+{
+  "name": "node-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf node_modules && npm i && echo ok > ./build.out",
+    "test": "echo test_ok && exit 0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "*"
+  }
+}
